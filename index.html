@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Flip Game</title>
+    <link rel="icon" href="image/cardbg.jpg" sizes="16x16" type="image/png" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+`   <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c1a22938b1.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="gameContainer">
+      <div class="music">
+        <button id="mus">
+          <i class="fas fa-music"></i>
+        </button>
+        <button id="reset">
+          <i class="fas fa-redo"></i>
+        </button>
+      </div>
+      <div class="celeb">
+        <img src="image/dance.gif" alt="" id="celeb1">
+        <img src="image/dance.gif" alt="" id="celeb2">
+        <img src="image/poper.gif" alt="" id="celeb4">
+        <img src="image/poper.gif" alt="" id="celeb3">
+      </div>
+      <div class="container">
+        <div class="trackbar" id="track">
+          <div class="progressbar" id="prog"></div>
+          
+        </div>
+        <h1 class="text-center text-white display-4">FLIP GAME</h1>
+      </div>
+      <div class="card" data-image="evilface">
+        <img src="image/evilface.png" class="front flip" alt="evilface" />
+        <img src="image/cardbg.jpg" class="back" alt="lco" />
+      </div>
+      <div class="card" data-image="evilface">
+        <img src="image/evilface.png" class="front" alt="evilface" />
+        <img src="image/cardbg.jpg" class="back" alt="lco" />
+      </div>
+      <div class="card" data-image="angryface">
+        <img src="image/angryface.png" class="front" alt="angryface" />
+        <img src="image/cardbg.jpg" class="back" alt="lco" />
+      </div>
+      <div class="card" data-image="angryface">
+        <img src="image/angryface.png" class="front" alt="angryface" />
+        <img src="image/cardbg.jpg" class="back" alt="lco" />
+      </div>
+      <div class="card" data-image="coolface">
+        <img src="image/coolface.png" class="front" alt="coolface" />
+        <img src="image/cardbg.jpg" class="back" alt="lco" />
+      </div>
+      <div class="card" data-image="coolface">
+        <img src="image/coolface.png" class="front" alt="coolface" />
+        <img src="image/cardbg.jpg" class="back" alt="lco" />
+      </div>
+      <div class="card" data-image="feverface">
+        <img src="image/feverface.png" class="front" alt="feverface" />
+        <img src="image/cardbg.jpg" class="back" alt="feverface" />
+      </div>
+      <div class="card" data-image="feverface">
+        <img src="image/feverface.png" class="front" alt="feverface" />
+        <img src="image/cardbg.jpg" class="back" alt="feverface" />
+      </div>
+      <div class="card" data-image="vomitface">
+        <img src="image/vomitface.png" class="front" alt="vomitface" />
+        <img src="image/cardbg.jpg" class="back" alt="vomitface" />
+      </div>
+      <div class="card" data-image="vomitface">
+        <img src="image/vomitface.png" class="front" alt="vomitface" />
+        <img src="image/cardbg.jpg" class="back" alt="lco" />
+      </div>
+      <div class="card" data-image="sneezeface">
+        <img src="image/sneezeface.png" class="front" alt="sneezeface" />
+        <img src="image/cardbg.jpg" class="back" alt="lco" />
+        
+      </div>
+      <div class="card" data-image="sneezeface">
+        <img src="image/sneezeface.png" class="front" alt="sneezeface" />
+        <img src="image/cardbg.jpg" class="back" alt="lco" />
+      </div>
+      <div class="card" data-image="mindblownface">
+        <img src="image/mindblownface.png" class="front" alt="mindblownface" />
+        <img src="image/cardbg.jpg" class="back" alt="lco" />
+      </div>
+      <div class="card" data-image="mindblownface">
+        <img src="image/mindblownface.png" class="front" alt="mindblownface" />
+        <img src="image/cardbg.jpg" class="back" alt="lco" />
+      </div>
+      <div class="card" data-image="thinkingface">
+        <img src="image/thinkingface.png" class="front" alt="thinkingface" />
+        <img src="image/cardbg.jpg" class="back" alt="lco" />
+      </div>
+      <div class="card" data-image="thinkingface">
+        <img src="image/thinkingface.png" class="front" alt="thinkingface" />
+        <img src="image/cardbg.jpg" class="back" alt="lco" />
+      </div>
+    </div>
+
+    <audio src="sounds/04_Dosukoi-Snow (Stage 5).mp3" id="sound"></audio>
+    <audio src="sounds/mixkit-unlock-game-notification-253.wav" id="success"></audio>
+    <audio src="sounds/mixkit-negative-guitar-tone-2324.wav" id="fail"></audio> 
+    <audio src="sounds/mixkit-medieval-show-fanfare-announcement-226.wav" id="win"></audio>   
+    <script src="index.js"></script>
+  </body>
+</html>
